@@ -10,9 +10,9 @@ export default function RoutesApp(){
         <BrowserRouter>
         <Header />
             <Routes>
-                <Route path="https://jamessonseren.github.io/" element={ <Home/> }/>
-                <Route path="https://jamessonseren.github.io//filme/:id" element={ <Filme/> }/>
-                <Route path="https://jamessonseren.github.io//favoritos" element={ <Favoritos/>}/>
+                <Route path="https://jamessonseren.github.io/movies_project/" element={ <Home/> }/>
+                <Route path="https://jamessonseren.github.io/movies_project/filme/:id" element={ <Filme/> }/>
+                <Route path="https://jamessonseren.github.io/movies_project/favoritos" element={ <Favoritos/>}/>
 
                 <Route path="*" element={ <Error/>}/>
             </Routes>
