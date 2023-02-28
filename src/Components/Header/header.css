@@ -1,0 +1,30 @@
+header{
+    background-color: black;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 2%;
+    align-items: center;
+
+}
+.logo{
+    height: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.favoritos{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ffff;
+    border: 1px solid #ffff;
+    padding: 5px;   
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.favoritos:hover{
+    background-color: #ffff;
+    color: black;
+}

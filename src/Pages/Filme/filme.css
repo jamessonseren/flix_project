@@ -1,0 +1,46 @@
+.movie-box{
+   
+    display: flex;
+     flex-direction: column;
+     width: 100%;
+     max-width: 1200px;
+     height: calc(100vh - 80px);
+     background-color: rgba(204, 211, 204, 0.479);
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 15px 2%;
+    
+}
+.movie-box h1, h4, p{
+    height: auto;
+}
+.movie-box img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+
+}
+.button-area{
+    display: flex;
+    height: auto;
+    width: 50%;
+    justify-content: space-around;
+}
+.button-area a{
+    text-decoration: none;
+    margin-top: 15px;
+    border: 1px solid #ffff;
+    padding: 8px 10px;
+    background-color: black;
+    color: #ffff;
+    transition: all 0.5s;
+    
+  }
+  .button-area p{
+    cursor: pointer;
+  }
+  .button-area a:hover{
+    background-color: #ffff;
+    color: #000000;
+    font-weight: bold;
+  }
