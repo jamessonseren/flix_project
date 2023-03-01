@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/movies_project/static/css/main.ef504b48.css",
-    "main.js": "/movies_project/static/js/main.e41f6c4d.js",
-    "index.html": "/movies_project/index.html",
-    "main.ef504b48.css.map": "/movies_project/static/css/main.ef504b48.css.map",
-    "main.e41f6c4d.js.map": "/movies_project/static/js/main.e41f6c4d.js.map"
+    "main.css": "/flix_project/static/css/main.ef504b48.css",
+    "main.js": "/flix_project/static/js/main.e41f6c4d.js",
+    "index.html": "/flix_project/index.html",
+    "main.ef504b48.css.map": "/flix_project/static/css/main.ef504b48.css.map",
+    "main.e41f6c4d.js.map": "/flix_project/static/js/main.e41f6c4d.js.map"
   },
   "entrypoints": [
     "static/css/main.ef504b48.css",
