@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import api from "../../Services/api"
 import { Link } from "react-router-dom"
 import './home.css'
+import Loader from "../../Components/Loader"
+
 
 //Url da API: movie/now_playing?api_key=5b2bd35efeb56d47dfa89b96d7f60684&language=pt-BR
 export default function Home(){
@@ -27,7 +29,7 @@ export default function Home(){
     if(loading){
         return(
             <div className="loading">
-                <h2>Carregando filmes...</h2>
+                <Loader/>
             </div>
         )
     }

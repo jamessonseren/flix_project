@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import api from '../../Services/api'
 import { toast } from 'react-toastify'
+import Loader from '../../Components/Loader'
+
 
 import './filme.css'
 export default function Filme(){
@@ -36,7 +38,7 @@ export default function Filme(){
     if(loading){
         return(
             <div className="loading">
-                <h2>Carregando filme...</h2>
+                <Loader />
             </div>
         )
     }
@@ -45,7 +47,7 @@ export default function Filme(){
         
         let savedMovies = JSON.parse(myList) || []
 
-        const hasMovie = savedMovies.some((insertedMovie) => insertedMovie.id == movie.id)
+        const hasMovie = savedMovies.some((insertedMovie) => insertedMovie.id === movie.id)
 
         if(hasMovie){
             toast.warn("Este filme já está na sua lista de favoritos")
